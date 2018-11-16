@@ -1,0 +1,39 @@
+.button {
+  display: block;
+
+  border-radius: 999em;
+  text-align: center;
+  border: 3px solid;
+  position: relative;
+  padding: 15px 10px;
+  cursor: pointer;
+  span {
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  &.primary {
+    border-color: orange;
+    background: orange;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    span {
+      color: #fff;
+    }
+  }
+
+  &.secondary {
+    border-color: teal;
+    background: teal;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    span {
+      color: #fff;
+    }
+  }
+
+  img {
+    height: 25px;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+  }
+}
